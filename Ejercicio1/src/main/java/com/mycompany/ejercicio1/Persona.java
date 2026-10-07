@@ -13,17 +13,17 @@ public class Persona {
     String apellidos;
     String numeroDocumentoIdentidad;
     String paisNacimiento;
-    char Genero;
+    char genero;
     int añoNacimiento;
     
     
     Persona(String nombre, String apellidos, String numeroDocumentoIdentidad,
-        String paisNacimiento, char Genero, int añoNacimiento){
+        String paisNacimiento, char genero, int añoNacimiento){
         this.nombre = nombre;
         this.apellidos = apellidos;
         this.numeroDocumentoIdentidad = numeroDocumentoIdentidad;
         this.paisNacimiento = paisNacimiento;
-        this.Genero = Genero;
+        this.genero = genero;
         this.añoNacimiento = añoNacimiento;
     }
     void imprimir(){
@@ -33,7 +33,7 @@ public class Persona {
            numeroDocumentoIdentidad);
         System.out.println("Año de nacimiento = " + añoNacimiento);
         System.out.println("País de nacimiento = " + paisNacimiento);
-        System.out.println("Género = " + Genero);
+        System.out.println("Género = " + genero);
         System.out.println();
     }
     
